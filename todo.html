@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="todo.css">
+    <title>My Todos Application</title>
+    <link rel="shortcut icon" href="img/logooo.png" fav="" icon.ico>
+</head>
+<body>
+    <div class="back">
+        <div id="main">
+            <h1>Todo Application</h1>
+            <input type="text" id="task">
+            <button class="btn" onclick="addTask()">Click to Add</button>
+            <div id="taskList" class="list">
+                <!-- <div class="line">
+                    <label class="container">
+                        <p>dsdhsaklh</p>
+                        <input type="checkbox" checked>
+                        <span class="checkmark"></span>
+                    </label>                      
+                </div> -->
+            </div>
+            <button class="btn" onclick="done()">Completed</button>
+            <button class="btn" onclick="removeAll()" style="margin-top: 0px;">Remove All</button>
+            <p id="message">Sorry! you can't add EMPTY task here</p>
+        </div>
+    </div>
+    
+
+
+
+
+<script src="todo.js"></script>
+<!-- <script src="localStorage.js"></script> -->
+</body>
+</html>
